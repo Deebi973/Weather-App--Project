@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    padding: 20px;
+    background: lightslategrey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 850px;
+}
+
+
+h1 {
+    color: violet;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#button {
+    margin: 20px 0 0;
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px;
+}
+
+#button:hover {
+    background-color: violet;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightslategray;
+    color: white;
+}
+
+.action button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: orange;
+    color: white;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
